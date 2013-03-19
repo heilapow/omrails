@@ -1,6 +1,7 @@
+$baseFontFamily: Ubuntu;
+
 @import url(http://fonts.googleapis.com/css?family=Ubuntu);
 
-$baseFontFamily: Ubuntu;
 $btnPrimaryBackground: magenta;
 $navbarbackgroundhighlight: white;
 $navbarbackground: white;
@@ -13,10 +14,10 @@ body {padding-top: 60px;}
 
 .navbar-inner {
 	@include box-shadow(none !important);
-				border: 0;}
+			border: 0;}
 
 .footer{
 	margin-top: 50px;
 	color: $grayLight;
 	a {color: $gray;}
-}
+		}
